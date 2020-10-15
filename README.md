@@ -13,7 +13,9 @@ Row 1 is closest to the white player, row 8 is closest to the black player.
 ### Piece
 #### Attributes
 Color: String 'WHITE' / 'BLACK'
+
 x_pos: Column
+
 y_pos: Row
 
 ### Pawn
@@ -31,6 +33,7 @@ Inherits from `Piece`
 ### Rook
 #### Attributes
 Inherits from `Piece`
+
 has_moved: Bool
 
 ### Queen
@@ -40,7 +43,9 @@ Inherits from `Piece`
 ### King
 #### Attributes
 Inherits from `Piece`
+
 has_moved: Bool (default False)
+
 checked: Bool (default False)
 
 ## Methods
