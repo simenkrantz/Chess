@@ -7,6 +7,9 @@ class Piece(object):
         self.y_pos = y_pos
         self.color = color
 
+    def check_legal_move(self, board, new_x, new_y):
+        pass
+
     def move(self, board, new_x, new_y):
         """Run after check_legal_move, if True then the piece can move"""
         if isinstance(self, King) or isinstance(self, Rook):
